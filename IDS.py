@@ -6,8 +6,8 @@ import requests
 MALICIOUS_IPS = {"192.168.1.100"}  # Local malicious IP list
 SUSPICIOUS_PORTS = {4444, 31337}   # Local suspicious ports
 ANOMALY_THRESHOLD = 10             # Local anomaly threshold
-THREAT_API_URL = "https://api.abuseipdb.com/api/v2/check"  # Example API
-API_KEY = "884abe60341dac35e4d4836e11cac34be20d64a14e1b701263e13e53a0cd0a22f7439473ac4d5ae0"  # Replace with your Threat Intelligence API key
+THREAT_API_URL = "https://api.abuseipdb.com/api/v2/check"
+API_KEY = "884abe60341dac35e4d4836e11cac34be20d64a14e1b701263e13e53a0cd0a22f7439473ac4d5ae0"
 
 class NIDS:
     def __init__(self):
